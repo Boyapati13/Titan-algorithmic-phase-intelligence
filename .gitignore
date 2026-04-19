@@ -1,0 +1,22 @@
+# MetaTrader 5 GitIgnore
+*.ex5
+*.ex4
+Logs/
+Files/
+Tester/
+Profiles/Tester/
+MQL5/Logs/
+MQL5/Files/
+MQL5/Profiles/Tester/
+
+# Python junk
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Titan Data/Models (Large files)
+Experts/titan_v3_prod/data/
+Experts/titan_v3_prod/models/
+Experts/titan_v3_prod/outputs/
+Experts/titan_v3_prod/logs/

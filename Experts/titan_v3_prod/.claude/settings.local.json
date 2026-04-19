@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -lh /c/Users/Tenders/AppData/Roaming/MetaQuotes/Terminal/AE2CC2E013FDE1E3CDF010AA51C60400/MQL5/Experts/titan_v3_prod/*.py)",
+      "Bash(awk '{print $9, $5}')",
+      "Bash(wc -l /c/Users/Tenders/AppData/Roaming/MetaQuotes/Terminal/AE2CC2E013FDE1E3CDF010AA51C60400/MQL5/Experts/titan_v3_prod/*.py)",
+      "Bash(grep -r \"build_loss_fn\\\\|predict_batch\" /c/Users/Tenders/AppData/Roaming/MetaQuotes/Terminal/AE2CC2E013FDE1E3CDF010AA51C60400/MQL5/Experts/titan_v3_prod/*.py)",
+      "Bash(tasklist)",
+      "Bash(wmic process *)",
+      "Bash(venv/Scripts/python titan_pipeline.py)",
+      "Bash(python3 *)",
+      "Bash(C:/Users/Tenders/AppData/Local/Python/bin/python.exe *)",
+      "Bash(python titan_pipeline.py)",
+      "Bash(tee pipeline_run.log)",
+      "Bash(python -c ' *)",
+      "Bash(timeout 900 python)",
+      "Read(//tmp/**)",
+      "Bash(tee /tmp/pipeline_fixed.log)",
+      "Read(//c/tmp/**)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\Tenders\\.claude\\projects\\c--Users-Tenders-AppData-Roaming-MetaQuotes-Terminal-AE2CC2E013FDE1E3CDF010AA51C60400-MQL5-Experts-titan-v3-prod\\memory"
+    ]
+  }
+}

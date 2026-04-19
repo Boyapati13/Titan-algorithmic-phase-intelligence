@@ -1,0 +1,41 @@
+# Titan V3.0 — Python Dependencies (Patch 3.2)
+# Install: pip install -r requirements.txt
+
+# ── Core ──────────────────────────────────────────────────────────────────────
+numpy>=1.26.0
+pandas>=2.0.0
+scipy>=1.12.0
+scikit-learn>=1.4.0
+pyarrow>=15.0.0          # Parquet with LZ4 compression
+lz4>=4.0.0               # Required by pyarrow for LZ4 Parquet
+
+# ── Deep Learning ─────────────────────────────────────────────────────────────
+torch>=2.2.0             # CUDA 12.x recommended for AMP training
+
+# ── ONNX ──────────────────────────────────────────────────────────────────────
+onnx>=1.16.0
+onnxruntime>=1.18.0
+
+# ── Topological Data Analysis ─────────────────────────────────────────────────
+ripser>=0.6.0            # Persistent homology (TDA H0/H1 features)
+persim>=0.3.0            # TDA visualization and distances
+
+# ── Sequence Modelling ────────────────────────────────────────────────────────
+# ── Gradient Boosted Trees ────────────────────────────────────────────────────
+xgboost>=2.0.0           # Baseline 2: OFP XGBoost + SHAP
+shap>=0.44.0             # Feature importance analysis
+
+# ── Hyperparameter Optimisation ───────────────────────────────────────────────
+optuna>=3.0.0            # Bayesian search (thread-safe with _cfg_lock)
+
+# ── Knowledge Graph (Claude Code skill — install separately) ──────────────────
+# graphifyy>=0.4.3       # pip install graphifyy && graphify install
+
+# ── MT5 Bridge (Windows only — uncomment on Windows) ─────────────────────────
+# MetaTrader5>=5.0.45    # pip install MetaTrader5 (Windows + MT5 terminal)
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+tqdm>=4.66.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.0.0            # For optuna HTML visualization export

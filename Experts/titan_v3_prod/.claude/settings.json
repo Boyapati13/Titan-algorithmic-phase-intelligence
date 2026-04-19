@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(kill 2540)",
+      "Bash(echo \"PID: $!\")"
+    ]
+  }
+}

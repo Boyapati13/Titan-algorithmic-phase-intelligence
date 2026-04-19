@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+venv/
+graphify-out/
+outputs/
+logs/
+models/
+data/raw/
+data/parquet/
+*.ex5
